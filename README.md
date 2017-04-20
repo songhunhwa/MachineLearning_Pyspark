@@ -17,7 +17,7 @@
 
 ### Pipeline
   - API docs: http://takwatanabe.me/pyspark/index.html
-  - Overivew: (https://spark.apache.org/docs/latest/ml-guide.html
+  - Overivew: https://spark.apache.org/docs/latest/ml-guide.html
   - Featurization, Pipelines, Persistence, Utilities
   - DataFrame-based API is primary API 
   - RDD-based spark.mllib package will be depricated from Spark 3.0)
