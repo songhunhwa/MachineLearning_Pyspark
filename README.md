@@ -1,7 +1,7 @@
 # Machine Learning Tutorial in Pyspark ML Library
 
 ### Info.
-  - This documnet includes the way of how to run machine learning with Pyspark ml libaray. 
+  - This documnet includes the way of how to run machine learning with Pyspark ml libaray. 
   - It was based on PySpark version 2.1.0 (Python 2.7). 
   - Below Spark version 2, pyspark mllib was the main module for ML, but it entered a maintenance mode.
   - Instead, at spark 2 verion, pyspark ml module became a main module. 
