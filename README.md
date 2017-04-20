@@ -1,6 +1,13 @@
 # Machine Learning Tutorial in Pyspark ML Library
 
-### the Dataset
+### Info
+  이 문서는 PySpark ML 라이브러리의 기본 사용법 및 예시에 대한 내용을 포함함.
+  PySpark version 2.1.0 (Python 2.7) 기준으로 작성함. 
+  Spark 2 버전 이하에서 RDD 기반의 pyspark.mllib 이 주요 모듈이며, 현재는 maintenance 모드로 진입 (3.0 부터 deprecated)
+  Spark 2 버전 이상부터 DataFrame 기반의 pyspark.ml 모듈이 주요함.
+  따라서 본 문서는 pyspark.ml 모듈 기반으로 작성됨.
+
+### Dataset
   - Description: the dataset including the target variable(default) and features
   - Rows: 10000
   - Columns(type): Default(bool) / Student(bool) / Balance(double) / Income(double)
