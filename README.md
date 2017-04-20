@@ -1,11 +1,11 @@
 # Machine Learning Tutorial in Pyspark ML Library
 
 ### Info
-  이 문서는 PySpark ML 라이브러리의 기본 사용법 및 예시에 대한 내용을 포함함.
-  PySpark version 2.1.0 (Python 2.7) 기준으로 작성함. 
-  Spark 2 버전 이하에서 RDD 기반의 pyspark.mllib 이 주요 모듈이며, 현재는 maintenance 모드로 진입 (3.0 부터 deprecated)
-  Spark 2 버전 이상부터 DataFrame 기반의 pyspark.ml 모듈이 주요함.
-  따라서 본 문서는 pyspark.ml 모듈 기반으로 작성됨.
+  - 이 문서는 PySpark ML 라이브러리의 기본 사용법 및 예시에 대한 내용을 포함함.
+  - PySpark version 2.1.0 (Python 2.7) 기준으로 작성함. 
+  - Spark 2 버전 이하에서 RDD 기반의 pyspark.mllib 이 주요 모듈이며, 현재는 maintenance 모드로 진입 (3.0 부터 deprecated)
+  - Spark 2 버전 이상부터 DataFrame 기반의 pyspark.ml 모듈이 주요함.
+  - 따라서 본 문서는 pyspark.ml 모듈 기반으로 작성됨.
 
 ### Dataset
   - Description: the dataset including the target variable(default) and features
@@ -34,4 +34,27 @@
     - StandardScaler: 표준점수 변환
     - LinearRegression: 선형회귀모델
 
+### Learn the dataset with algorithm
+  - 라이브러리가 제공하는 모델 알고리즘 종류 (출처: https://spark.apache.org/docs/latest/ml-classification-regression.html)
+  - Classification
+    - Logistic regression
+    - Decision tree classifier
+    - Random forest classifier
+    - Gradient-boosted tree classifier
+    - Multilayer perceptron classifier
+    - One-vs-Rest classifier (a.k.a. One-vs-All)
+    - Naive Bayes
+  - Regression
+    - Linear regression
+    - Generalized linear regression
+    - Decision tree regression
+    - Random forest regression
+    - Gradient-boosted tree regression
+    - Survival regression
+    - Isotonic regression
+  - Clustering
+    - K-means
+    - Latent Dirichlet allocation (LDA)
+    - Bisecting k-means
+    - Gaussian Mixture Model (GMM)
 
