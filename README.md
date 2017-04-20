@@ -17,7 +17,7 @@
 
 ### Pipeline
   - API docs: http://takwatanabe.me/pyspark/index.html
-  - overivew (https://spark.apache.org/docs/latest/ml-guide.html)
+  - Overivew: (https://spark.apache.org/docs/latest/ml-guide.html
   - Featurization, Pipelines, Persistence, Utilities
   - DataFrame-based API is primary API 
   - RDD-based spark.mllib package will be depricated from Spark 3.0)
@@ -35,7 +35,7 @@
     - LinearRegression: the famous model for predicting real numbers
 
 ### Learn the dataset with algorithm
-  - (https://spark.apache.org/docs/latest/ml-classification-regression.html)
+  - Reference: https://spark.apache.org/docs/latest/ml-classification-regression.html
   - Classification
     - Logistic regression
     - Decision tree classifier
