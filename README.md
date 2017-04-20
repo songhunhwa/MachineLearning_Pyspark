@@ -23,7 +23,7 @@
   - RDD-based spark.mllib package will be depricated from Spark 3.0)
   - As DataFrames (with Pipeline) is more user-friendly, this data type will be more frequently used.
   
-### Pipeline 구성요소: Transformer, Estimator, Parameter
+### Pipeline components: Transformer, Estimator, Parameter
   - Transformer: Scale, linear transformation, vectorize, Prediction
     - Estimator: learning the data via a modeling algorithm
     - Parameter: Regulization, the number of iterations
