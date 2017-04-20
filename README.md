@@ -7,14 +7,15 @@
   - 문제 타입 => Binary Classification
   - Target var: Default (채무불이행 여부, Skewed)
   - Features: Student, Balance, Income
-# CSV 불러오기 & Caching
+
+### CSV 불러오기 & Caching
 df = sqlContext.read.format('com.databricks.spark.csv')\
 					.options(header='true', inferSchema='true')\
 					.load('/Users/woowahan/Documents/Python/Pyspark_MLlib/data/Default.csv')\
 					.drop("_c0")\
 					.cache()
  
-# 스키마 확인
+### 스키마 확인
 df.printSchema()
 root
  |-- default: string (nullable = true)
@@ -22,7 +23,7 @@ root
  |-- balance: double (nullable = true)
  |-- income: double (nullable = true)
  
-# Descriptive Analysis
+#### Descriptive Analysis
 df.describe().show()
 +-------+-------+-------+-----------------+-----------------+
 |summary|default|student|          balance|           income|
