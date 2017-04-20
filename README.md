@@ -58,3 +58,9 @@
     - Bisecting k-means
     - Gaussian Mixture Model (GMM)
 
+### Evaluation / Parameter Tuning
+  - Model selection (a.k.a. hyperparameter tuning)
+  - Cross-Validation
+  - Train-Validation Split
+  
+### Save & Load the Pipeline and Model
