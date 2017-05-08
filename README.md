@@ -38,26 +38,7 @@
   - Reference: https://spark.apache.org/docs/latest/ml-classification-regression.html
   - Classification
     - Logistic regression
-    - Decision tree classifier
-    - Random forest classifier
-    - Gradient-boosted tree classifier
-    - Multilayer perceptron classifier
-    - One-vs-Rest classifier (a.k.a. One-vs-All)
-    - Naive Bayes
-  - Regression
-    - Linear regression
-    - Generalized linear regression
-    - Decision tree regression
-    - Random forest regression
-    - Gradient-boosted tree regression
-    - Survival regression
-    - Isotonic regression
-  - Clustering
-    - K-means
-    - Latent Dirichlet allocation (LDA)
-    - Bisecting k-means
-    - Gaussian Mixture Model (GMM)
-
+    
 ### Evaluation / Parameter Tuning
   - Model selection (a.k.a. hyperparameter tuning)
   - Cross-Validation
